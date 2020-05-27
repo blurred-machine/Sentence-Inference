@@ -11,6 +11,13 @@ For every given pair of sentences -- (sentence-1, sentence-2), we need to determ
 ![Length of strings Sentence1](https://github.com/paras009/Sentence-Inference/blob/master/images/length_of_doc_s1.png)
 * Length of document in sentence2: 
 ![Length of strings Sentence2](https://github.com/paras009/Sentence-Inference/blob/master/images/length_of_doc_s2.png)
+* Heatmap of correlation between the features: 
+![Heatmap](https://github.com/paras009/Sentence-Inference/blob/master/images/correlation_heatmap.png)
+* Bidirectional LSTM Model performance(not good due to less data): 
+![Loss](https://github.com/paras009/Sentence-Inference/blob/master/images/bidirectional_LSTM_model_performance_loss.png)
+![Accuracy](https://github.com/paras009/Sentence-Inference/blob/master/images/bidirectional_LSTM_model_performance_accuracy.png)
+* Selected model's performance for predicting the testing `gold_label`.
+![MLPClassifier](https://github.com/paras009/Sentence-Inference/blob/master/images/MLPClassifier.png)
 
 ## Inference
 * Since the dataset was very small, training a Neural network was not a good idea so I choose to move ahead with ML algorithms. 
