@@ -6,6 +6,12 @@ For every given pair of sentences -- (sentence-1, sentence-2), we need to determ
 * `Sentence2`: String column of human entered text, Sentence 2
 * `gold_label`: Categorical column inferring logical relation between sentence1 and sentence2
 
+## Implementation 
+* Length of document in sentence1: 
+![Length of strings Sentence1](https://github.com/paras009/Sentence-Inference/blob/master/images/length_of_doc_s1.png)
+* Length of document in sentence2: 
+![Length of strings Sentence2](https://github.com/paras009/Sentence-Inference/blob/master/images/length_of_doc_s2.png)
+
 ## Inference
 * Since the dataset was very small, training a Neural network was not a good idea so I choose to move ahead with ML algorithms. 
 * So, working on a large dataset can improve the learning.
