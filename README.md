@@ -17,7 +17,7 @@ For every given pair of sentences -- (sentence-1, sentence-2), we need to determ
 ![Loss](https://github.com/paras009/Sentence-Inference/blob/master/images/bidirectional_LSTM_model_performance_loss.png)
 ![Accuracy](https://github.com/paras009/Sentence-Inference/blob/master/images/bidirectional_LSTM_model_performance_accuracy.png)
 * Selected model's performance for predicting the testing `gold_label`.
-![MLPClassifier](https://github.com/paras009/Sentence-Inference/blob/master/images/MLPClassifier.png)
+![MLPClassifier](https://github.com/paras009/Sentence-Inference/blob/master/images/MLPClassifier.PNG)
 
 ## Inference
 * Since the dataset was very small, training a Neural network was not a good idea so I choose to move ahead with ML algorithms. 
